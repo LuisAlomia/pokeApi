@@ -1,0 +1,23 @@
+.form {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.inputSearch {
+  background-color: rgba(194, 190, 183, 0.459);
+  padding: 0.6rem;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem 0 0 0.3rem;
+  font-family: "BenchNine", sans-serif;
+}
+
+.buttonSearch {
+  border: none;
+  padding: 0.45rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  cursor: pointer;
+}

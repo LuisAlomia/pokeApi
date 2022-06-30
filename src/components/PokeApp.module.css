@@ -1,0 +1,67 @@
+.header {
+  background-color: rgb(253, 253, 253);
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.titleApp {
+  text-transform: uppercase;
+}
+
+.titleApp span {
+  color: brown;
+}
+
+.contentButtonFilter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.buttonFilter {
+  padding: 0.2rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.buttonFilter:hover {
+  transform: scale(1.1);
+}
+
+.btnBack {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 12rem;
+  left: 2rem;
+  z-index: 20;
+}
+
+.main {
+  margin-top: 9rem;
+  padding: 2rem 0;
+}
+
+.contentCard {
+  padding: 0 1rem 2rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}

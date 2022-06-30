@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "BenchNine", sans-serif;
+}
+
+.normal {
+  background-color: rgba(100, 148, 237, 0.479);
+}
+
+.grass {
+  background-color: #2ecc7085;
+}
+
+.fighting {
+  background-color: rgba(255, 217, 0, 0.507);
+}
+
+.flying {
+  background-color: rgba(137, 43, 226, 0.5);
+}
+
+.poison {
+  background-color: rgba(111, 145, 59, 0.486);
+}
+
+.ground {
+  background-color: rgba(126, 58, 126, 0.493);
+}
+
+.rock {
+  background-color: rgba(128, 128, 128, 0.514);
+}
+
+.fire {
+  background-color: rgba(228, 48, 48, 0.575);
+}
+
+.water {
+  background-color: rgba(47, 166, 187, 0.452);
+}
+
+.electric {
+  background-color: rgba(184, 135, 11, 0.5);
+}
+
+.psychic {
+  background-color: rgba(153, 50, 204, 0.493);
+}
+
+.ice {
+  background-color: rgba(255, 127, 80, 0.486);
+}
+
+.dragon {
+  background-color: rgba(97, 30, 30, 0.466);
+}
+
+.dark {
+  background-color: rgba(34, 29, 29, 0.486);
+}
+
+.fairy {
+  background-color: rgba(178, 34, 34, 0.486);
+}
+
+.unknown {
+  background-color: rgba(222, 184, 135, 0.493);
+}
+
+.shadow {
+  background-color: rgba(95, 158, 160, 0.466);
+}
